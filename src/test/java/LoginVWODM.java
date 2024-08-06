@@ -16,16 +16,16 @@ import static Driver.DriverManager.driver;
 
 public class LoginVWODM  extends CommonToAllTest {
 
-    private static final Logger logger = LogManager.getLogger(LoginVWODM.class);
+    //private static final Logger logger = LogManager.getLogger(LoginVWODM.class);
 
     @Test
     public void invalidlogin() throws InterruptedException, FileNotFoundException {
-        logger.info("Starting Test");
+      //  logger.info("Starting Test");
         LoginPage login = new LoginPage(driver);
-        logger.info("Opening the URL");
+       // logger.info("Opening the URL");
         LoginPage.openurl();
         String errormessage = login.invalidCredentail(PropertyReader.readkey("invalid_username"), PropertyReader.readkey("invalid_password"));
-        logger.info("Verifying the Result");
+        //logger.info("Verifying the Result");
         Assert.assertEquals(errormessage, "Your email, password, IP address or location did not match");
         driver.quit();
 
