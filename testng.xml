@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" name="C:/Users/abhis/IdeaProjects/WebAutomationFrameWork">
+       <classes>
+
+           <class name="LoginVWO">
+
+               <methods>
+                   
+                   <include name="invalidlogin"/>
+                   <include name="invalidlogin2"/>
+                   
+               </methods>
+
+
+           </class>
+
+
+       </classes>
+
+    </test>
+</suite>
