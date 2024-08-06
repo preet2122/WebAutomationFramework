@@ -16,8 +16,6 @@ import static Driver.DriverManager.driver;
 
 public class LoginVWODM  extends CommonToAllTest {
 
-    //private static final Logger logger = LogManager.getLogger(LoginVWODM.class);
-
     @Test
     public void invalidlogin() throws InterruptedException, FileNotFoundException {
       //  logger.info("Starting Test");

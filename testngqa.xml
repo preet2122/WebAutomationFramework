@@ -2,16 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/abhis/IdeaProjects/WebAutomationFrameWork/testng.xml">
-    <test verbose="2" preserve-order="true" parallel="methods" name="ATB6xWebAutomationFramework">
         <classes>
-            <class name="LoginVWO">
-                <methods>
-                    <include name="invalidlogin"/>
-                    <include name="invalidlogin2"/>
-                </methods>
+            <class name="LoginVWODM">
             </class>
         </classes>
-
-
     </test>
 </suite>
